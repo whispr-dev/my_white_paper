@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <!-- Background and Title -->
+  <rect width="800" height="1000" fill="white" stroke="black"/>
+  <text x="400" y="40" font-size="24" font-family="Arial" text-anchor="middle" font-weight="bold">Universal Flip-Flop Playground</text>
+
+  <!-- NAND Gate Diagram Area -->
+  <g id="nand-diagram" transform="translate(50, 100)">
+    <text x="200" y="-20" font-size="18" font-family="Arial" text-anchor="middle">NAND Gate Diagram</text>
+    <!-- First NAND -->
+    <rect x="10" y="10" width="120" height="60" fill="none" stroke="black"/>
+    <text x="70" y="45" font-size="12" font-family="Arial" text-anchor="middle">NAND 1</text>
+    <line x1="10" y1="30" x2="-40" y2="30" stroke="black"/>
+    <text x="-50" y="35" font-size="10" font-family="Arial" text-anchor="end">Input X</text>
+    <line x1="10" y1="50" x2="-40" y2="50" stroke="black"/>
+    <text x="-50" y="55" font-size="10" font-family="Arial" text-anchor="end">Input Y</text>
+
+    <!-- Second NAND -->
+    <rect x="200" y="10" width="120" height="60" fill="none" stroke="black"/>
+    <text x="260" y="45" font-size="12" font-family="Arial" text-anchor="middle">NAND 2</text>
+    <line x1="320" y1="30" x2="360" y2="30" stroke="black"/>
+    <text x="370" y="35" font-size="10" font-family="Arial">Output O1</text>
+    <line x1="320" y1="50" x2="360" y2="50" stroke="black"/>
+    <text x="370" y="55" font-size="10" font-family="Arial">Output O2</text>
+  </g>
+
+  <!-- Input/Output Section -->
+  <g id="io-section" transform="translate(50, 300)">
+    <text x="200" y="-20" font-size="18" font-family="Arial" text-anchor="middle">Inputs n Outputs</text>
+
+    <!-- Inputs -->
+    <text x="50" y="20" font-size="12" font-family="Arial">Inputs:</text>
+    <circle cx="70" cy="50" r="10" fill="white" stroke="black"/>
+    <text x="90" y="55" font-size="12" font-family="Arial">Input X</text>
+
+    <circle cx="70" cy="90" r="10" fill="white" stroke="black"/>
+    <text x="90" y="95" font-size="12" font-family="Arial">Input Y</text>
+
+    <circle cx="70" cy="130" r="10" fill="white" stroke="black"/>
+    <text x="90" y="135" font-size="12" font-family="Arial">Input Z</text>
+
+    <!-- Outputs -->
+    <text x="300" y="20" font-size="12" font-family="Arial">Outputs:</text>
+    <circle cx="320" cy="50" r="10" fill="white" stroke="black"/>
+    <text x="340" y="55" font-size="12" font-family="Arial">Output Q</text>
+
+    <circle cx="320" cy="90" r="10" fill="white" stroke="black"/>
+    <text x="340" y="95" font-size="12" font-family="Arial">Output Q̅</text>
+  </g>
+
+  <!-- Configuration Section -->
+  <g id="configuration-section" transform="translate(50, 500)">
+    <text x="200" y="-20" font-size="18" font-family="Arial" text-anchor="middle">Mode Configuration</text>
+
+    <text x="50" y="20" font-size="12" font-family="Arial">Mode Selector:</text>
+    <rect x="120" y="10" width="40" height="20" fill="white" stroke="black"/>
+    <text x="140" y="25" font-size="10" font-family="Arial" text-anchor="middle">SR</text>
+
+    <rect x="170" y="10" width="40" height="20" fill="white" stroke="black"/>
+    <text x="190" y="25" font-size="10" font-family="Arial" text-anchor="middle">JK</text>
+
+    <rect x="220" y="10" width="40" height="20" fill="white" stroke="black"/>
+    <text x="240" y="25" font-size="10" font-family="Arial" text-anchor="middle">D</text>
+
+    <rect x="270" y="10" width="40" height="20" fill="white" stroke="black"/>
+    <text x="290" y="25" font-size="10" font-family="Arial" text-anchor="middle">T</text>
+  </g>
+
+  <!-- Status LEDs -->
+  <g id="status-leds" transform="translate(50, 700)">
+    <text x="200" y="-20" font-size="18" font-family="Arial" text-anchor="middle">State Indicators</text>
+
+    <circle cx="100" cy="20" r="10" fill="red" stroke="black"/>
+    <text x="120" y="25" font-size="12" font-family="Arial">Q</text>
+
+    <circle cx="200" cy="20" r="10" fill="green" stroke="black"/>
+    <text x="220" y="25" font-size="12" font-family="Arial">Q̅</text>
+  </g>
+</svg>
