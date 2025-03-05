@@ -1,0 +1,238 @@
+State of the Art in Analog and Hybrid AI Computing
+ChatGPT
+OK, let me see: exploring analog computing's role in AI, particularly through vector math and parallel processing, and examining notable industry players and research labs. Progress on commercialization and comparative insights with neuromorphic and digital accelerators are also covered.
+
+OK, let me think about the hurdles with scaling analog computing: noise, precision issues, calibration, and manufacturing variation. Also, interfacing analog to digital and software/hardware co-design complexities.
+
+Searched for analog computing AI acceleration industry players
+ChatGPT
+I'm gathering data on analog AI chip designs from various credible sources, including IBM's research, Wired, Tom's Hardware, and IEEE.
+
+Favicon
+Read research.ibm.com
+
+ChatGPT
+IBM's prototype analog AI chips use phase-change memory for analog weights. They're energy-efficient and ideal for multiply-accumulate operations. Ongoing research, not a commercial product yet.
+
+Favicon
+Read tomshardware.com
+
+ChatGPT
+Examining IBM's innovative hybrid chip, combining PCM analog computing with digital circuits, and its implications for energy efficiency and computing power.
+
+Searched for Mythic analog AI chip
+ChatGPT
+I’m gathering info on Mythic, an analog AI startup gaining interest for its edge computing advancements and a recent financial crisis. The company showcased their analog compute-in-memory technology with notable product specs.
+
+Favicon
+Read mythic.ai
+
+ChatGPT
+Mythic boasts significant strides: 10x affordability, 3.8x power reduction, and 2.6x speed enhancement via analog compute-in-memory for edge inference.
+
+Favicon
+Read more from mythic.ai
+
+ChatGPT
+Given their recent funding spike and new leadership, Mythic's analog flash arrays seem well-positioned. Their chips, particularly the M1076, illustrate a distinct Technological edge, pushing the envelope in analog compute-in-memory.
+
+Searched for analog AI accelerator startups
+ChatGPT
+EnCharge AI raised $100m, hinting at their potential prominence in technology startups.
+
+Favicon
+Read datacenterdynamics.com
+
+ChatGPT
+EnCharge, emerging from Princeton, exudes innovation with a $100M boost. Their analog-in-memory compute, using metal-wire switch capacitors, promises 20x energy efficiency, set to disrupt digital AI chips in 2025.
+
+Favicon
+Read yolegroup.com
+
+ChatGPT
+I'm trying to determine if the Yole group site is currently accessible.
+
+Searched for Blumind analog AI startup
+ChatGPT
+I'm starting to delve into Blumind's home and some of its key features and functionalities.
+
+Favicon
+Read blumind.ai
+
+ChatGPT
+Blumind leverages analog AI neural networks with standard CMOS processes, emphasizing energy efficiency and precision, while addressing stability and scalability issues.
+
+Favicon
+Read techradar.com
+
+ChatGPT
+Blumind's analog keyword spotting chip targets wearables and healthcare with ultra-low power. Achieving 10 nJ per inference, it’s an all-analog neural network architecture without digital interfaces.
+
+Searched for bipolar VCA NAND gate analog neural network
+ChatGPT
+I’m optimizing the search for "Bipolar VCA analog neural networks" to better suit the context.
+
+Searched for bipolar VCA NAND analog neural network research
+ChatGPT
+I’m rethinking the search, focusing on "bipolar VCA analog computing" to better align with my research needs.
+
+Searched for bipolar VCA NAND gate analog
+ChatGPT
+Examining analog circuits to build logic gates and neural networks.
+
+Favicon
+Read kyndryl.com
+
+ChatGPT
+I’m curious about the Kyndryl article, exploring if it highlights key players or state-of-the-art advancements.
+
+Searched for bipolar VCA based NAND gate neural network
+ChatGPT
+I'm thinking through how "bipolar VCA-based NAND gate neural networks" might merge analog computing concepts with neural networks. The use of "bipolar" and "VCA" suggests potential analog logic applications.
+
+Searched for VCA analog neural network chip
+ChatGPT
+Reflecting on specific research
+
+Searched for NAND gate neural networks analog VCA
+ChatGPT
+I’m thinking the phrase might tie into research or networks like "Bipolar Morphological Neural Networks".
+
+Favicon
+Read researchgate.net
+
+ChatGPT
+I'm thinking through the idea of "Bipolar VCA-based NAND gate neural networks" and how it might involve analog hardware or novel analog computing approaches, possibly using logic gates or analog circuits.
+
+Favicon
+Read news.mit.edu
+
+ChatGPT
+I’m exploring photonic computing, focusing on hybrid analog-digital ML approaches like Lightmatter and Lightelligence. The emphasis is on their optical analog cores, which integrate digital control.
+
+Searched for analog neural network using NAND gates
+ChatGPT
+I'm reviewing analog computing in AI, focusing on vector-matrix operations, hybrid analog-digital accelerators like IBM's PCM chip, and emerging approaches such as bipolar VCA-based NAND gate neural networks.
+
+Searched for analog NAND gate neural network hardware research
+ChatGPT
+I’m looking at a study that’s examining "Neuromorphic computing using NAND flash memory architecture." It explores how NAND flash arrays could support neural networks, leveraging typical digital flash technology possibly for analog computing or integrating NAND memory in computational tasks.
+
+Favicon
+Read frontiersin.org
+
+ChatGPT
+The proposal uses NAND flash memory for analog computing, leveraging pulse width modulation and 4-bit weight. Achieved significant accuracy with MNIST and CIFAR datasets, showcasing an inventive repurposing of existing tech.
+
+Favicon
+Read anabrid.com
+
+ChatGPT
+I'm surveying analog computing's potential beyond AI, especially for hybrid analog-digital systems. Highlighting companies like Mythic, EnCharge, and Blumind, and exploring integration with photonic tech.
+
+Searched for Lightmatter photonic AI chip performance
+Favicon
+Read community.cadence.com
+
+ChatGPT
+I’m evaluating commercialization timelines for analog computing, considering edge and powerful analog accelerators, addressing challenges like noise and precision, and comparing analog, neuromorphic, and digital technologies.
+
+I'm analyzing analog's efficiency for dense tasks, neuromorphic's event-driven approach for sparse tasks, digital's scalability with Moore's law, and considering images to illustrate key concepts in the report.
+
+Favicon
+Read research.ibm.com
+
+ChatGPT
+Choosing an artsy IBM analog chip image for a header, ensuring it's embedable post-intro.
+
+Favicon
+Read more from research.ibm.com
+
+ChatGPT
+I'm piecing together a small table comparing analog, neuromorphic, and digital approaches across precision, efficiency, and maturity. Adding numeric claims and citations for accuracy.
+
+Favicon
+Read arxiv.org
+
+ChatGPT
+I'm mapping out eight analog deep learning methods, noting their accuracy, application, algorithmic efficiency, speed, and energy use. The findings highlight the potential but acknowledge scalability challenges, with current implementations as proofs of concept.
+
+Favicon
+Read more from arxiv.org
+
+ChatGPT
+I'm organizing a table to list analog/hybrid AI hardware projects, including companies like IBM, Mythic, EnCharge, Blumind, and Lightmatter, showcasing their approaches and stages.
+
+Analog computing often surpasses digital in energy and efficiency metrics but slightly lacks precision and flexibility. Neuromorphic computing specializes well in specific patterns.
+
+Syntiant's analog memory computing for inference matches Mythic's methods, suggesting a shared strategy in the digital transformation process.
+
+Searched for Syntiant analog neural network chip
+ChatGPT
+I’m looking at Syntiant's NDP chips, which use analog neural networks for efficient voice detection tasks, highlighting their unique analog core capabilities.
+
+Favicon
+Read semiengineering.com
+
+ChatGPT
+I'm evaluating Syntiant and others for analog AI chips. Challenges like yield and integration are noted, and images for visualization are planned.
+
+Favicon
+Read cdn.mos.cms.futurecdn.net
+
+ChatGPT
+I'm evaluating images for their quality and conceptual appeal. IBM's art with analog waves is visually captivating, while Blumind's chip image is moderate. Considering how to integrate both.
+
+Favicon
+Read tomshardware.com
+
+ChatGPT
+I accessed the link to see the illustration of IBM's chip.
+
+Favicon
+Read cdn.mos.cms.futurecdn.net
+
+ChatGPT
+Noticing that these images likely lack the required detail for replication.
+
+Favicon
+Read lightmatter.co
+
+Favicon
+Read globenewswire.com
+
+ChatGPT
+IBM's prototype analog AI chip image at the introduction, and Blumind's analog chip image in the timeline section to illustrate production progress.
+
+Favicon
+Read more from kyndryl.com
+
+ChatGPT
+Thinking…
+
+
+
+fren, please can you compile a report on the  state of the art in hybrid software-hardware computing as used to boost processing power of ai computing systems, specifically focusing on use of analog or hybrid analog-digital setups, including those employing fuzzy logic, to boost vector type math and parallel processing capabilities.
+use bullet points, charts and tables where necessary to clearly display information and try to be clear about the actual state of development of different technologies w.r.t. time before a feasibly mass-produced, cheap and user-friendly version is available on the market, most likely.
+ChatGPT said:
+Got it! To make this report as useful as possible, could you clarify a few things:
+
+Scope of Technologies: Should I focus only on AI computing accelerators (e.g., neuromorphic chips, analog computing for AI workloads) or also general-purpose hybrid computing (e.g., FPGA-based analog-digital acceleration)?
+Market Readiness Emphasis: Are you mainly interested in technologies close to commercialization, or should I also include experimental/lab-stage research?
+Application Areas: Do you want a focus on specific AI tasks (e.g., deep learning, large-scale simulations, reinforcement learning) or a broad overview?
+Depth of Coverage: Would you like an in-depth technical breakdown (circuit designs, architecture-level descriptions), or a higher-level industry overview of trends and key players?
+Let me know, and I’ll get started on this report!
+
+You said:
+1. i'm specifically interested in analog electronic computing tech such as bipolar vca based nand gate neural nets and the like - neuromorphic chips do hold interest for me but i don't need to know about fpga-based acceleration.
+2. i'm interested in both tech close to commercialization and exp./lab-stage but with a leaning towards those closer to commerce ready.
+3. a broad overview please.
+4. just a higher-level industry overview of trends and key players but with a little detail for each key player, just enough specifics to give me some idea exactly what they might be investigating compared to any other or myself - i.e. no need for circuit designs or architecture level descripts, just some brief overview infos.
+ChatGPT said:
+Understood! I'll compile a report on the state of the art in hybrid software-hardware computing for AI acceleration, focusing specifically on analog and hybrid analog-digital computing techniques. The report will cover:
+
+Key trends in analog computing for AI acceleration, including bipolar VCA-based neural networks and related techniques.
+The most relevant industry players and research groups, with a brief overview of their specific focus areas.
+The commercialization timeline for these technologies, emphasizing those closest to market readiness.
+Comparative insights into different approaches in terms of feasibility, efficiency, and scalability.
+I'll let you know when the report is ready!
